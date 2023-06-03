@@ -34,7 +34,7 @@ static class Pronominator
                 string resultPronouns = String.Empty;
                 foreach (string pronoun in usedPronouns)
                 {
-                    resultPronouns += $"{pronoun} ({String.Join(", ", pronouns[pronoun])}))";
+                    resultPronouns += $"{pronoun} ({String.Join(", ", pronouns[pronoun])})\n";
                 }
                 return resultPronouns;
             }
